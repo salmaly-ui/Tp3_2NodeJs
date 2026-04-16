@@ -24,7 +24,10 @@ Le projet utilise **Express.js**, **MySQL** et **EJS** pour le rendu côté serv
 ## 🎥 Démonstration
 
 🔗 Vidéo :  
-https://github.com/user-attachments/assets/8d82a641-5f22-42cb-b0d1-d8eab438086f
+
+
+Uploading Liste des produits - Google Chrome 2026-04-16 12-33-24.mp4…
+
 
 ---
 
