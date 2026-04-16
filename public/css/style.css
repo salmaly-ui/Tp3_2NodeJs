@@ -1,0 +1,105 @@
+/* Thème violet moderne */
+
+body {
+  padding-bottom: 20px;
+  background: #f5f3ff; /* violet très clair */
+  transition: background-color 0.2s ease;
+}
+
+/* Navbar (si utilisée avec Bootstrap) */
+.navbar {
+  background: linear-gradient(90deg, #6a0dad, #8e44ad);
+}
+
+/* Tableau */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(106, 13, 173, 0.1);
+  background: white;
+}
+
+.table th {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  padding: 12px 8px;
+  transition: background-color 0.2s;
+}
+
+/* Hover lignes */
+.table tbody tr:hover {
+  background-color: rgba(142, 68, 173, 0.08);
+}
+
+/* Boutons */
+.btn-sm {
+  margin-right: 8px;
+  border-radius: 20px;
+  padding: 0.25rem 0.8rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 1px rgba(106, 13, 173, 0.1);
+  border: none;
+}
+
+/* Couleurs boutons personnalisées */
+.btn-primary {
+  background-color: #6a0dad;
+}
+
+.btn-primary:hover {
+  background-color: #5a0ca3;
+}
+
+.btn-info {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #7d3c98;
+}
+
+.btn-danger {
+  background-color: #c0392b;
+}
+
+.btn-danger:hover {
+  background-color: #a93226;
+}
+
+/* Effet hover boutons */
+.btn-sm:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2);
+}
+
+.btn-sm:active {
+  transform: translateY(1px);
+  transition: 0.05s;
+}
+
+/* Form inline */
+form.d-inline {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  form.d-inline {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .btn-sm {
+    margin-right: 0;
+    margin-bottom: 6px;
+    width: 100%;
+    text-align: center;
+  }
+}
