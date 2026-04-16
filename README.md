@@ -25,7 +25,7 @@ Le projet utilise **Express.js**, **MySQL** et **EJS** pour le rendu côté serv
 ---
 
 ## 📁 Structure du projet
-
+```
 crud-express-mysql/
 ├── controllers/
 │   └── productController.js
@@ -50,7 +50,7 @@ crud-express-mysql/
 ├── .env
 ├── app.js
 └── package.json
-
+```
 ---
 
 ## ⚙️ Prérequis
