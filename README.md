@@ -1,3 +1,6 @@
+
+
+
 # 📦 crud-express-mysql
 
 ## 🚀 Application full-stack Node.js (Express + MySQL + EJS)
@@ -21,6 +24,7 @@ Le projet utilise **Express.js**, **MySQL** et **EJS** pour le rendu côté serv
 ## 🎥 Démonstration
 
 🔗 Vidéo :  
+https://github.com/user-attachments/assets/8d82a641-5f22-42cb-b0d1-d8eab438086f
 
 ---
 
